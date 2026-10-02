@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "People for Passion"
+description = "A responsive public website and frontend-only NGO administration demo for People for Passion, with programs, events, volunteer contact flows, role-aware navigation, and beneficiary management using clearly labeled demo data."
+version = "1.0.0"
+id = "artifacts/people-for-passion"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26011
+
+[services.development]
+run = "pnpm --filter @workspace/people-for-passion run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/people-for-passion", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/people-for-passion/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26011"
+BASE_PATH = "/"

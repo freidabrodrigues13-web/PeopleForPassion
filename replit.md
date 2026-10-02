@@ -1,6 +1,6 @@
-# [Project name]
+# People for Passion
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A public website and frontend-only administration demo for People for Passion, a community-focused non-profit organization.
 
 ## Run & Operate
 
@@ -22,15 +22,23 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/people-for-passion/` — public website and admin demo.
+- `artifacts/people-for-passion/src/data/` — organization content and clearly labeled demo records.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The admin experience is a frontend demo; its sample records and metrics are not real organization data.
+- Demo admin changes use browser storage and are not shared with other users or backed by an API.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- The public site shares the organization's mission, programs, events, and volunteer/contact information.
+- The admin demo provides role-aware navigation and beneficiary-record management.
+
+## Content accuracy
+
+- Use only facts supplied in the organization's brief; do not invent an address, dates, partnerships, funding, awards, staff, or impact figures.
+- Label organization-reported figures and all admin sample data clearly; do not present demo records as real beneficiaries.
 
 ## User preferences
 

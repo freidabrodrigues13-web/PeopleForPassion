@@ -1,0 +1,884 @@
+Create a modern, responsive and professional NGO management website frontend for **People for Passion**, a registered non-profit organization focused on creating positive social change through community service.
+
+The website should have two major areas:
+
+1. Public-facing NGO website
+2. Admin management dashboard
+
+The frontend should be designed as a real production-quality NGO platform rather than a generic template.
+
+---
+
+# ORGANIZATION INFORMATION
+
+## Organization Name
+
+People for Passion
+
+## About the NGO
+
+People for Passion is a non-profit, registered organization consisting of passionate people working towards the community to bring about positive change in society.
+
+The organization was founded in 2019 by **Harshitha Srinivas**. The organization works with passionate volunteers and community members to support marginalized and underserved sections of society.
+
+The organization focuses on women, children, specially-abled communities, the LGBTQIA+ community, environmental causes, animal welfare and civic issues.
+
+The organization has conducted 40+ events and initiatives and has a growing volunteer community.
+
+## Mission
+
+"To be a support and help in the development of the women and children of the society who are in need."
+
+## Vision
+
+"To bring a positive change in society through our services towards Women, Children and LGBTQ+ community."
+
+## Core Areas
+
+* Women & girls
+* Children
+* Specially-abled communities
+* LGBTQIA+ community
+* Environment
+* Underprivileged communities
+* Animal welfare
+* Civic issues
+* Community development
+
+## Founder
+
+Harshitha Srinivas
+
+Create a dedicated founder section introducing Harshitha Srinivas as the founder of People for Passion.
+
+## Existing Initiatives
+
+Use the organization's existing initiatives as real content:
+
+* Toy Drive Bengaluru
+* Toy Drive at Hubli
+* Makara Sankranti Toy Drive
+* Sole To Souls
+* Pulse Polio Immunisation Drive
+* Fan Donation at Mandya
+* Virtual Volunteering for Food Drive
+* Feed a Dog
+* Addressing Civic Issues
+* Republic Day Celebration
+* Holi Celebration
+* World Down Syndrome Day
+* Wishbone Day
+* Mother's Day
+* Menstrual Hygiene Day
+
+Do not invent statistics or achievements that are not provided.
+
+---
+
+# DESIGN DIRECTION
+
+Create a warm, trustworthy and modern NGO visual identity.
+
+The website should feel:
+
+* Human
+* Compassionate
+* Trustworthy
+* Community-oriented
+* Professional
+* Accessible
+* Hopeful
+* Modern
+
+Avoid making it look like a corporate SaaS dashboard on the public website.
+
+Use a clean visual hierarchy with:
+
+* Large meaningful imagery
+* Rounded cards
+* Soft shadows
+* Generous whitespace
+* Accessible typography
+* Subtle animations
+* Clear calls-to-action
+
+Suggested visual palette:
+
+* Warm maroon / deep red as the primary color
+* Soft cream/off-white background
+* Dark charcoal text
+* Muted green accents for community/environment sections
+* White cards
+* Subtle neutral borders
+
+Do not overuse gradients.
+
+Use authentic-looking NGO/community imagery where image assets are available. Avoid generic corporate stock imagery.
+
+---
+
+# PUBLIC WEBSITE
+
+## 1. HOME PAGE
+
+Create a visually strong homepage.
+
+### Navbar
+
+Include:
+
+* People for Passion logo
+* Home
+* About
+* Programs
+* Events
+* Contact
+* Volunteer
+* Admin Login
+
+The navbar should become sticky when scrolling.
+
+On mobile, use a hamburger menu.
+
+---
+
+## HERO SECTION
+
+Create a full-width hero section.
+
+Headline:
+
+**Making a Difference, Together.**
+
+Supporting text:
+
+**People for Passion works towards creating positive change in society by supporting women, children, specially-abled communities, the LGBTQIA+ community, environmental causes and underserved communities.**
+
+Primary CTA:
+
+**Become a Volunteer**
+
+Secondary CTA:
+
+**Explore Our Programs**
+
+Use a powerful community-focused image.
+
+Add subtle statistics/cards such as:
+
+* 40+ Events
+* 40+ Volunteers
+* 10+ Core Team Members
+* 1000+ People Supported Through Food Drive
+
+Clearly label these as organization-reported figures where appropriate.
+
+---
+
+# 2. ABOUT PEOPLE FOR PASSION
+
+Create a dedicated About page.
+
+Sections:
+
+### Who We Are
+
+Explain that People for Passion is a registered non-profit organization working towards positive community change.
+
+### Our Story
+
+Timeline:
+
+**2019**
+People for Passion founded by Harshitha Srinivas.
+
+**2020**
+The organization continued expanding its community initiatives and drives.
+
+Then show a visual timeline for major initiatives.
+
+### Founder Section
+
+Show:
+
+**Harshitha Srinivas**
+
+Founder, People for Passion
+
+Include a professional portrait placeholder and biography.
+
+### Mission & Vision
+
+Use two large visually distinct cards:
+
+MISSION
+
+"To be a support and help in the development of the women and children of the society who are in need."
+
+VISION
+
+"To bring a positive change in society through our services towards Women, Children and LGBTQ+ community."
+
+### Our Community
+
+Show:
+
+* 10+ Team Members
+* 40+ Volunteers
+* 40+ Events
+* Community-focused initiatives
+
+---
+
+# 3. PROGRAMS & ACTIVITIES
+
+Create a Programs page.
+
+Organize activities into categories instead of displaying everything as a simple list.
+
+Categories:
+
+### Women & Girls
+
+Examples:
+
+* Menstrual hygiene awareness
+* Support for women frontliners
+* Support for families in need
+
+### Children
+
+Examples:
+
+* Toy drives
+* Shoe drives
+* School support
+* Republic Day activities
+
+### Inclusion
+
+Examples:
+
+* World Down Syndrome Day
+* Wishbone Day
+* LGBTQIA+ community support
+
+### Community Welfare
+
+Examples:
+
+* Food distribution
+* Civic issue reporting
+* Community drives
+
+### Environment & Animals
+
+Examples:
+
+* Feed a Dog
+* Environmental initiatives
+
+Each program should be represented using a reusable card component.
+
+Program card fields:
+
+* Image
+* Program name
+* Category
+* Short description
+* Date
+* Location
+* Status
+* View Details button
+
+---
+
+# 4. EVENTS PAGE
+
+Create an events listing page.
+
+Each event card should contain:
+
+* Event image
+* Event name
+* Date
+* Location
+* Category
+* Description
+* View Details
+
+Add filtering:
+
+* All
+* Children
+* Women
+* Community
+* Environment
+* Inclusion
+* Animal Welfare
+
+Add search.
+
+Use pagination or load-more for scalability.
+
+---
+
+# 5. CONTACT PAGE
+
+Create a professional Contact page.
+
+Display:
+
+### Phone
+
++91 9945363186
+
+### Email
+
+[peopleforpassion@gmail.com](mailto:peopleforpassion@gmail.com)
+
+### Social Media
+
+Instagram:
+People for Passion
+
+Facebook:
+People4Passion
+
+Create:
+
+* Contact information cards
+* Contact form
+* Name
+* Email
+* Phone
+* Subject
+* Message
+* Submit button
+
+Add a map placeholder if an official organization address is later provided.
+
+Do NOT invent an address.
+
+---
+
+# 6. VOLUNTEER CTA
+
+Throughout the website, include clear calls-to-action:
+
+**Become a Volunteer**
+
+Supporting copy:
+
+"Volunteers do not necessarily have the time; they just have the Heart."
+
+CTA button:
+
+**Join Us**
+
+The CTA should be visually prominent but not intrusive.
+
+---
+
+# ADMIN SYSTEM
+
+Create a separate admin experience.
+
+Route:
+
+`/admin/login`
+
+The public website and admin interface should have clearly different visual treatments.
+
+---
+
+# 7. ADMIN LOGIN
+
+Create a professional login page.
+
+Fields:
+
+* Email / Username
+* Password
+* Remember me
+* Login button
+* Forgot password
+
+Include:
+
+"People for Passion — Administration"
+
+Do not implement real authentication in the frontend unless a backend is connected.
+
+For frontend development, create a mock authentication flow.
+
+---
+
+# 8. ADMIN DASHBOARD
+
+Route:
+
+`/admin/dashboard`
+
+Create a sidebar navigation.
+
+Sidebar:
+
+* Dashboard
+* Beneficiaries
+* Programs
+* Events
+* Volunteers
+* Reports
+* Users
+* Settings
+* Logout
+
+Dashboard header:
+
+**Welcome back, Admin**
+
+Show summary cards:
+
+* Total Beneficiaries
+* Active Programs
+* Upcoming Events
+* Volunteers
+* Recently Added Beneficiaries
+
+Example:
+
+Total Beneficiaries
+1,248
+
+Active Programs
+8
+
+Upcoming Events
+5
+
+Volunteers
+42
+
+These numbers should be mock/demo data clearly structured so they can later be replaced by API data.
+
+---
+
+# 9. ROLE-BASED ACCESS CONTROL UI
+
+Design the frontend to support different admin roles.
+
+Roles:
+
+### Super Admin
+
+Can:
+
+* Manage users
+* Manage beneficiaries
+* Manage programs
+* Manage events
+* View reports
+* Modify settings
+
+### Admin
+
+Can:
+
+* Manage beneficiaries
+* Manage programs
+* Manage events
+* View reports
+
+### Volunteer / Staff
+
+Can:
+
+* View assigned beneficiaries
+* Add beneficiary records
+* Update beneficiary information
+* View programs
+
+The UI should conditionally display navigation items according to the user's role.
+
+Create a reusable permission system such as:
+
+`hasPermission(user, permission)`
+
+Permissions could include:
+
+* `beneficiary.view`
+* `beneficiary.create`
+* `beneficiary.edit`
+* `beneficiary.delete`
+* `program.view`
+* `program.create`
+* `program.edit`
+* `event.view`
+* `event.create`
+* `event.edit`
+* `user.manage`
+* `reports.view`
+* `settings.manage`
+
+---
+
+# 10. BENEFICIARY REGISTRATION
+
+Create a comprehensive beneficiary registration form.
+
+Route:
+
+`/admin/beneficiaries/new`
+
+Form sections:
+
+## Personal Information
+
+* Full Name
+* Date of Birth
+* Age
+* Gender
+* Phone Number
+* Email
+* Profile Photo
+
+## Address
+
+* Address
+* City
+* State
+* PIN Code
+
+## Support Information
+
+* Beneficiary Category
+* Program / Initiative
+* Type of Support Required
+* Current Status
+* Priority
+* Notes
+
+Categories:
+
+* Women
+* Children
+* Specially-abled
+* LGBTQIA+
+* Elderly
+* Underprivileged
+* Other
+
+Support types:
+
+* Food
+* Education
+* Healthcare
+* Clothing
+* Hygiene
+* Financial Assistance
+* Community Support
+* Other
+
+Add:
+
+**Save Beneficiary**
+
+**Save & Add Another**
+
+**Cancel**
+
+Use strong form validation and accessible error messages.
+
+---
+
+# 11. BENEFICIARY DATABASE
+
+Create a dashboard page:
+
+`/admin/beneficiaries`
+
+Display beneficiaries in a professional data table.
+
+Columns:
+
+* ID
+* Name
+* Age
+* Gender
+* Category
+* Program
+* Location
+* Status
+* Date Added
+* Actions
+
+Actions:
+
+* View
+* Edit
+* Delete
+
+Use status badges:
+
+* Active
+* Completed
+* Pending
+* Follow-up Required
+
+Do not use excessive colors.
+
+---
+
+# 12. BENEFICIARY SEARCH & FILTERING
+
+The beneficiary database must support efficient searching.
+
+Search bar:
+
+**Search by name, ID, phone or location...**
+
+Filters:
+
+* Category
+* Gender
+* Age range
+* State
+* Program
+* Status
+* Date registered
+
+Add:
+
+**Clear Filters**
+
+Add sorting:
+
+* Name
+* Date Added
+* Status
+* Priority
+
+Display the number of matching records.
+
+Example:
+
+`Showing 24 of 1,248 beneficiaries`
+
+The table should support pagination.
+
+---
+
+# 13. BENEFICIARY PROFILE
+
+When an admin clicks a beneficiary, show a detailed profile.
+
+Layout:
+
+Left:
+
+* Profile image
+* Name
+* Beneficiary ID
+* Status
+
+Right:
+
+Personal Information
+
+Contact Information
+
+Address
+
+Support Information
+
+Program History
+
+Notes
+
+Activity Timeline
+
+Example timeline:
+
+Registered → Support Provided → Follow-up → Case Completed
+
+Include:
+
+**Edit Beneficiary**
+
+**Add Follow-up**
+
+**Mark as Completed**
+
+---
+
+# 14. RESPONSIVE DESIGN
+
+The website must work perfectly on:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Admin dashboard:
+
+Desktop:
+Sidebar + content
+
+Tablet:
+Collapsible sidebar
+
+Mobile:
+Bottom navigation or hamburger menu
+
+Tables should become horizontally scrollable cards on small screens.
+
+---
+
+# 15. COMPONENT ARCHITECTURE
+
+Use reusable components.
+
+Suggested structure:
+
+components/
+
+* Navbar
+* Footer
+* Hero
+* SectionHeader
+* ProgramCard
+* EventCard
+* VolunteerCTA
+* StatsCard
+* ContactCard
+* Button
+* Modal
+* Badge
+* DataTable
+* SearchBar
+* FilterPanel
+* FormInput
+* SelectInput
+* Sidebar
+* DashboardCard
+* BeneficiaryTable
+* BeneficiaryForm
+* BeneficiaryProfile
+* ActivityTimeline
+
+---
+
+# 16. ROUTES
+
+Public:
+
+`/`
+`/about`
+`/programs`
+`/events`
+`/events/:id`
+`/contact`
+
+Admin:
+
+`/admin/login`
+`/admin/dashboard`
+`/admin/beneficiaries`
+`/admin/beneficiaries/new`
+`/admin/beneficiaries/:id`
+`/admin/beneficiaries/:id/edit`
+
+Future-ready:
+
+`/admin/programs`
+`/admin/events`
+`/admin/volunteers`
+`/admin/users`
+`/admin/reports`
+`/admin/settings`
+
+---
+
+# 17. UX REQUIREMENTS
+
+Use:
+
+* Loading states
+* Empty states
+* Error states
+* Form validation
+* Confirmation dialogs
+* Toast notifications
+* Skeleton loaders
+* Accessible buttons
+* Keyboard navigation
+* Proper focus states
+
+Example empty state:
+
+"No beneficiaries found"
+
+"Try changing your filters or search terms."
+
+Button:
+
+"Clear Filters"
+
+---
+
+# 18. IMPORTANT DATA RULE
+
+Use only verified information provided about People for Passion.
+
+Do NOT invent:
+
+* NGO registration number
+* Physical address
+* Government affiliations
+* Donation statistics
+* Beneficiary counts
+* Funding information
+* Awards
+* Partnerships
+* Staff names
+* Program statistics
+
+If information is unavailable, use an appropriate placeholder or omit the field.
+
+---
+
+# 19. OVERALL EXPERIENCE
+
+The final website should feel like a real NGO platform that combines:
+
+PUBLIC WEBSITE
+→ Story
+→ Mission
+→ Programs
+→ Events
+→ Community impact
+→ Volunteer CTA
+→ Contact
+
+WITH
+
+ADMIN PLATFORM
+→ Dashboard
+→ Beneficiary management
+→ Search & filtering
+→ Program management
+→ Event management
+→ Role-based access
+→ Reports
+
+The public website should prioritize storytelling and trust.
+
+The admin dashboard should prioritize efficiency, clarity and data management.
+
+Build the frontend with clean reusable components and keep the architecture ready for future REST API/backend integration.
+
+Do not hard-code the application logic into individual pages. Keep mock data in separate data/service files so that it can easily be replaced by backend APIs later.
+
+Make the website visually polished enough for an NGO project presentation/demo and structurally scalable enough to become a real production application.
